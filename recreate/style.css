@@ -1,0 +1,74 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.font{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 150px;
+    color: rgb(173, 211, 255)
+}
+
+
+.column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+   
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+    
+
+@media only screen and (max-width: 800px) {
+    .column {
+        flex: 40%;
+        max-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* ipad1 */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .column{
+    flex: 50%;
+    max-width: 50%;
+
+}
+
+
+/*phone 4*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .column {
+    flex: 120%;
+    max-width: 120%;
+
+}
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .column {
+    flex: 25%;
+    max-width: 25%;
+}
+
