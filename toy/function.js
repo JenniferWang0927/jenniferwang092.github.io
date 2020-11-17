@@ -15,9 +15,9 @@ function preloadpic() {
 	var sheeptired = new Image();
 	
 	
-	sheepjump.src = "images/sheepjump.jpg";
-	sheepsleep.src = "images/sheepsleep.jpg";
-	sheeptired.src = "images/sheeptired.jpg";
+	sheepjump.src = "https://github.com/JenniferWang0927/jenniferwang0927.github.io/blob/master/toy/images/sheepjump.jpg?raw=true";
+	sheepsleep.src = "https://github.com/JenniferWang0927/jenniferwang0927.github.io/blob/master/toy/images/sheepsleep.jpg?raw=true";
+	sheeptired.src = "https://github.com/JenniferWang0927/jenniferwang0927.github.io/blob/master/toy/images/sheeptired.jpg?raw=true";
 	
     console.log("All pictures are loaded");	//make sure all the pictures are loaded
 }
