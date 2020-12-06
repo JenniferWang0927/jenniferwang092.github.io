@@ -1,27 +1,15 @@
-section {
-    display: flex;
-    flex-wrap: wrap;
+
+body
+{
+background-color:rgb(224, 148, 186);
 }
-.font{
-    text-align:center;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 150px;
-    color: rgb(173, 211, 255)
+
+img{
+    height: 50px; 
+    width: 80px;
 }
 
 
-.column {
-    flex: 20%;
-    max-width: 20%;
-    padding: 0 4px;
-   
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-    
 
 @media only screen and (max-width: 800px) {
     .column {
