@@ -1,0 +1,16 @@
+body{
+    background-image:url(sheena2.jpg);
+}
+
+#div1{
+    width: 300px;
+    height: 100px;
+    margin:50px auto;
+    line-height: 100px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+
